@@ -23,7 +23,7 @@ jobs:
         sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
         sudo chmod a+rx /usr/local/bin/yt-dlp
 
-    - name: Get KemalSunalFilmleriveSahneleri
+    - name: Get kemalsunalfilmlerivesahneleri.m3u8
       run: |
         touch ./kemalsunalfilmlerivesahneleri.m3u8
         sudo cat >./kemalsunalfilmlerivesahneleri.m3u8 <<EOL
